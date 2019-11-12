@@ -21,9 +21,10 @@
  3. Data hasil berupa *byte* dari *file* `client.zip` akan ditampilkan di dalam terminal.
 
 #### Menjalankan Fungsionalitas Program untuk Mengirim *Binary File* (dilakukan pihak penguji)
- 1. Masukkan data berupa *byte* pada *browser*.  
- 2. Server akan melakukan pengecekan dengan *`md5` checksum*   
- 3. Apabila *binary* cocok, akan diberi keluaran *1*, sebaliknya diberi keluaran *0*  
+ 1. Jalankan `server.py` dari terminal.   
+ 2. Jalankan `client.py` dari terminal.   
+ 3. Server akan melakukan pengecekan dengan *`md5` checksum*   
+ 4. Apabila *binary* cocok, akan diberi keluaran *1*, sebaliknya diberi keluaran *0*   
 
 
 ### *User Guide*
@@ -45,9 +46,10 @@
 *3. Data result in form of byte from `client.zip` will be printed in terminal window*
 
 #### *Using Program Utility to Send Binary File*
-*1. Insert your byte data to browser*  
-*2. Server will check it using `md5` checksum*   
-*3. If the two give the same binary result, server will send an output of '1' to the browser, else the output will be '0'* 
+*1. Run `server.py` from terminal*  
+*2. Run `client.py` from terminal*  
+*3. Server will check it using `md5` checksum*   
+*4. If the two give the same binary result, server will send an output of '1' to the browser, else the output will be '0'* 
 
 
 ### Pembagian Tugas
