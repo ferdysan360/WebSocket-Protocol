@@ -6,21 +6,21 @@
 
 #### Menjalankan Server dan Client
  1. Jalankan `server.py` dari terminal  
- 2. Jalankan `client.html` dengan *browser*  
+ 2. Jalankan `client.html` dengan *browser* (dilakukan pihak penguji)  
 
-#### Menjalankan Fungsionalitas Program `echo`
+#### Menjalankan Fungsionalitas Program `echo`  (dilakukan pihak penguji)
  1. Ketikkan *`!echo `* sebelum kalimat yang ingin dikirim kembali oleh server.  
 > Contoh:  
 > - *`!echo Dojima Family`*  
 
  2. Server akan memberi balasan berupa *Dojima Family* dan ditampilkan di browser.  
 
-#### Menjalankan Fungsionalitas Program `sumbission`
+#### Menjalankan Fungsionalitas Program `submission` (dilakukan pihak penguji)
  1. Jalankan `server.py` dari terminal.  
  2. Jalankan `client.py` dari terminal.  
  3. Data hasil berupa *byte* dari *file* `client.zip` akan ditampilkan di dalam terminal.
 
-#### Menjalankan Fungsionalitas Program untuk Mengirim *Binary File*
+#### Menjalankan Fungsionalitas Program untuk Mengirim *Binary File* (dilakukan pihak penguji)
  1. Masukkan data berupa *byte* pada *browser*.  
  2. Server akan melakukan pengecekan dengan *`md5` checksum*   
  3. Apabila *binary* cocok, akan diberi keluaran *1*, sebaliknya diberi keluaran *0*  
@@ -51,8 +51,8 @@
 
 
 ### Pembagian Tugas
-| NIM      | Nama               | Apa yang dikerjakan   | Persentasi kontribusi |
-|:--------:|:------------------:|:---------------------:|:---------------------:|
-| 13517116 | Ferdy Santoso      |                       |                      %|
-| 13517125 | Christzen Leonardy |                       |                      %|
-| 13517146 | Hansen             |                       |                      %|
+| NIM      | Nama               | Apa yang dikerjakan        | Persentasi kontribusi |
+|:--------:|:------------------:|:--------------------------:|:---------------------:|
+| 13517116 | Ferdy Santoso      | Echo, Analysis, Debug      |                    30%|
+| 13517125 | Christzen Leonardy | Submission, File, Analysis |                    45%|
+| 13517146 | Hansen             | Echo, Analysis, Doc        |                    25%|
