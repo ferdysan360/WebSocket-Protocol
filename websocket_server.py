@@ -59,7 +59,7 @@ class WebsocketServer(ThreadingMixIn, TCPServer, API):
     clients = []
     id_counter = 0
 
-    def __init__(self, port, host='127.0.0.1',):
+    def __init__(self, port, host='0.0.0.0',):
         TCPServer.__init__(self, (host, port), WebSocketHandler)
         self.port = self.socket.getsockname()[1]
         print('Listening at port', port)
